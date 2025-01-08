@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:#150036;
+    color: white;
+}
+.container{
+    color: white;
+    font-family: Arial;
+  }
+  a{
+     text-decoration:none;
+     color: white;
+  }
+  a:hover{
+      cursor:pointer;
+      color:purple;
+  }
+  .formContainer{
+      margin-top: 55px;
+  }
+  .headerContainer{
+      display: grid;
+      grid-template-columns:4fr 2fr 2fr 2fr;
+  }
+  .formTexth1{
+      font-size:40px;
+  }
+  .formTextpara{
+      font-size: 14px;
+      line-height: none;
+  }
+  .formHeader{
+    margin-bottom: 20px;
+    line-height:35px;
+    display:grid;
+    grid-template-columns:2fr 100px;
+  }
+  .firstSecName{
+      display:grid;
+     grid-template-columns:1fr 1fr;
+  }
+ input,.companyName{
+     border: 0px;
+     padding: 10px;
+     margin: 5px;
+     width:100%;
+     outline: none;
+     background-color: white;
+     color: #5C5C5C;
+ }
+ select{
+     color: #8B8B8B;
+ }
+ .detailContainer{
+     width: 350px;
+     display: grid;
+     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+ }
+ .lastNameForm{
+  margin-left: 10px;   
+ }
+ .checkText{
+     display: flex;
+     flex-direction: columns;
+     margin-top:20px;
+     margin-bottom:20px;
+     width: 350px;
+ }
+ .check{
+   border: none;
+ }
+ .text{
+     font-size:15px;
+     line-height:15px;
+ }
+ .button{
+     width:350px;
+     padding-top:5px;
+     padding-bottom: 5px;
+     color: white;
+     font-weight: bold;
+     font-size:17px;
+     border: none;
+     background-color:#8D33FF;
+     transition: background-color 0.2s,color 0.2s;
+ }
+ .button:hover{
+     border:1px solid puple;
+     background-color:white;
+     color: purple;
+ }
+.formContainer{
+    margin-left:5px;
+}
+.product,.resource,.prizing{
+ border-style: none;  
+margin: none;
+outline: none;
+color: white;
+}
+.image{
+ width: 100px;
+ height: 100px;
+ margin: none;
+ border-radius:10px;
+}
