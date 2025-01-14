@@ -1,2 +1,1 @@
-# My--website-
-A simple website 
+simple website 
